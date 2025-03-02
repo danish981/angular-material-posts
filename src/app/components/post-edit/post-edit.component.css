@@ -1,0 +1,192 @@
+.post-form-card {
+  max-width: 600px; /* Limit card width for a cleaner look */
+  margin: 50px auto 0; /* Center the card horizontally with top margin */
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Softer, deeper shadow for a premium feel */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animations */
+}
+
+.post-form-card:hover {
+  transform: translateY(-2px); /* Slight lift on hover for interactivity */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.full-width {
+  width: 100%; /* Ensure form fields span the card width */
+  margin-bottom: 20px; /* Slightly more space between fields for readability */
+}
+
+mat-form-field {
+  display: block; /* Stack fields vertically */
+}
+
+mat-form-field.mat-focused .mat-form-field-label {
+  color: #1976d2; /* Highlight label color on focus to match primary color */
+}
+
+mat-form-field.mat-focused .mat-form-field-underline {
+  background-color: #1976d2; /* Underline color on focus */
+}
+
+.button-container {
+  display: flex;
+  gap: 20px; /* Slightly more space between buttons */
+  margin-top: 32px; /* More space above buttons for balance */
+  justify-content: center; /* Center buttons horizontally */
+}
+
+button.mat-raised-button {
+  min-width: 120px; /* Ensure buttons have a minimum width for consistency */
+  padding: 12px 24px; /* Larger padding for a more prominent look */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth button animations */
+}
+
+button.mat-raised-button:hover {
+  transform: scale(1.05); /* Slight scale on hover for interactivity */
+}
+
+button.mat-raised-button:disabled {
+  background-color: #cccccc; /* Softer disabled state color */
+  color: #666666; /* Darker text for disabled state */
+}
+
+mat-slide-toggle {
+  margin: 20px 0; /* More space around the toggle for balance */
+  display: block; /* Ensure toggle is full-width and centered */
+}
+
+mat-card-title {
+  font-size: 28px; /* Slightly larger title for emphasis */
+  font-weight: 600; /* Bolder weight for a stronger look */
+  color: #1976d2; /* Match Material primary color */
+  text-align: center;
+  margin-bottom: 16px; /* Space below title */
+}
+
+mat-card-content {
+  padding: 16px 0;
+}
+
+mat-error {
+  font-size: 12px;
+  color: #d32f2f; /* Material error color for consistency */
+  margin-top: 4px; /* Space above error message */
+}
+
+/* the other css  */
+
+/* Add to post-create.component.css and post-edit.component.css */
+mat-slide-toggle {
+  margin: 20px 0; /* Consistent spacing */
+  display: block; /* Ensure full-width alignment */
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth animations */
+}
+
+mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+  background-color: #4caf50; /* Green for checked state, matching published capsule */
+}
+
+mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+  background-color: rgba(76, 175, 80, 0.5); /* Light green for checked bar */
+}
+
+mat-slide-toggle .mat-slide-toggle-thumb {
+  background-color: #f44336; /* Red for unchecked state, matching unpublished capsule */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+mat-slide-toggle .mat-slide-toggle-bar {
+  background-color: rgba(244, 67, 54, 0.3); /* Light red for unchecked bar */
+  border-radius: 16px; /* Rounded bar for a modern look */
+}
+
+mat-slide-toggle:hover .mat-slide-toggle-thumb {
+  transform: scale(1.1); /* Slight scale on hover for interactivity */
+}
+
+mat-slide-toggle.mat-checked:hover .mat-slide-toggle-thumb {
+  transform: scale(1.1); /* Maintain hover effect for checked state */
+}
+
+/* Add to post-detail-dialog.component.css (if the slider appears here, or adjust accordingly) */
+mat-slide-toggle {
+  margin: 12px 0; /* Slightly less margin for consistency with modal spacing */
+  display: block;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+  background-color: #4caf50; /* Green for checked */
+}
+
+mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+  background-color: rgba(76, 175, 80, 0.5); /* Light green for checked bar */
+}
+
+mat-slide-toggle .mat-slide-toggle-thumb {
+  background-color: #f44336; /* Red for unchecked */
+  transition: background-color 0.3s ease;
+}
+
+mat-slide-toggle .mat-slide-toggle-bar {
+  background-color: rgba(244, 67, 54, 0.3); /* Light red for unchecked bar */
+  border-radius: 16px; /* Rounded bar */
+}
+
+mat-slide-toggle:hover .mat-slide-toggle-thumb {
+  transform: scale(1.1); /* Slight scale on hover */
+}
+
+mat-slide-toggle.mat-checked:hover .mat-slide-toggle-thumb {
+  transform: scale(1.1); /* Maintain hover effect */
+}
+
+/* for snackbar - toast like message */
+.snack-bar {
+  background: #ffffff; /* White background for contrast */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+  padding: 16px 24px; /* Larger padding for a premium feel */
+  font-size: 16px; /* Larger text for readability */
+  font-weight: 500; /* Slightly bolder text */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth animations */
+  min-width: 300px; /* Minimum width for consistency */
+}
+
+.snack-bar-success {
+  border-left: 4px solid #4caf50; /* Green border for success */
+  color: #2e7d32; /* Darker green text for contrast */
+}
+
+.snack-bar-success .mat-mdc-button {
+  color: #4caf50; /* Match button color to success state */
+}
+
+.snack-bar-warning {
+  border-left: 4px solid #ffca28; /* Yellow border for warning */
+  color: #f57f17; /* Darker yellow text for contrast */
+}
+
+.snack-bar-warning .mat-mdc-button {
+  color: #ffca28; /* Match button color to warning state */
+}
+
+.snack-bar.mat-mdc-snack-bar-container {
+  transform: translateY(0); /* Ensure no initial offset */
+}
+
+.snack-bar.mat-mdc-snack-bar-container.mat-mdc-snack-bar-enter-active {
+  transform: translateY(0) scale(1); /* Smooth entrance animation */
+}
+
+.snack-bar.mat-mdc-snack-bar-container.mat-mdc-snack-bar-exit {
+  opacity: 0;
+  transform: translateY(-20px); /* Slide out upward */
+}
+
+.snack-bar.mat-mdc-snack-bar-container.mat-mdc-snack-bar-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+}

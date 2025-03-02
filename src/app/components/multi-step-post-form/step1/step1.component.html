@@ -1,0 +1,16 @@
+<form [formGroup]="form" class="step-form">
+  <mat-form-field appearance="outline" class="full-width">
+    <mat-label>Title</mat-label>
+    <input matInput formControlName="title" required>
+    <mat-error *ngIf="form.get('title')?.hasError('required') && form.get('title')?.touched">
+      Title is required
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field appearance="outline" class="full-width">
+    <mat-label>Slug</mat-label>
+    <input matInput formControlName="slug" required>
+    <mat-error *ngIf="form.get('slug')?.hasError('required') && form.get('slug')?.touched">
+      Slug is required
+    </mat-error>
+  </mat-form-field>
+</form>

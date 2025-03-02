@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+  .step-form {
+    padding: 12px;
+    margin: 0;
+  }
+  .full-width {
+    margin-bottom: 16px;
+  }
+}
+
+.step-form {
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step-form:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 24px; /* Increased space between fields */
+  display: block; /* Ensure fields stack vertically */
+}
+
+mat-form-field {
+  display: block; /* Explicitly stack fields */
+}
+
+mat-form-field.mat-focused .mat-form-field-label {
+  color: #1e88e5; /* Lighter Material primary color for focus */
+}
+
+mat-form-field.mat-focused .mat-form-field-underline {
+  background-color: #1e88e5; /* Underline color on focus */
+}
+
+mat-error {
+  font-size: 12px;
+  color: #d32f2f; /* Material error color */
+  margin-top: 4px;
+}

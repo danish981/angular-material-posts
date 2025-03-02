@@ -1,0 +1,27 @@
+<mat-card class="multi-step-form-card">
+  <mat-card-title>Create New Post</mat-card-title>
+  <mat-card-content>
+    <mat-stepper [linear]="isLinear" #matStepper [selectedIndex]="activeStepIndex">
+
+      <!-- Step1 form -->
+      <mat-step [stepControl]="step1Form">
+        <ng-template matStepLabel>Basic Info</ng-template>
+        <app-step1 [form]="step1Form"></app-step1>
+        <div class="step-actions">
+          <button mat-raised-button color="primary" (click)="nextStep()" [disabled]="step1Form.invalid">Next</button>
+        </div>
+      </mat-step>
+
+      <!-- Step2 form -->
+      <mat-step [stepControl]="step2Form">
+        <ng-template matStepLabel>Content</ng-template>
+        <app-step2 [form]="step2Form"></app-step2>
+        <div class="step-actions">
+          <button mat-raised-button color="accent" (click)="previousStep()">Previous</button>
+          <button mat-raised-button color="primary" (click)="onSubmit()" [disabled]="step2Form.invalid">Submit</button>
+        </div>
+      </mat-step>
+
+    </mat-stepper>
+  </mat-card-content>
+</mat-card>

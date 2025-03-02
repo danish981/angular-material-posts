@@ -1,0 +1,37 @@
+<mat-dialog-content class="dialog-content">
+  <mat-card class="post-detail-card">
+    <button mat-icon-button class="close-button" (click)="dialogRef.close()">
+      <mat-icon>close</mat-icon>
+    </button>
+    <mat-card-title>{{ data.post.title }}</mat-card-title>
+    <mat-card-subtitle>Slug: {{ data.post.slug }}</mat-card-subtitle>
+    <mat-card-content>
+      <div class="detail-section">
+        <p class="detail-label"><strong>Excerpt:</strong></p>
+        <p class="detail-text">{{ data.post.excerpt }}</p>
+      </div>
+      <div class="detail-section">
+        <p class="detail-label"><strong>Description:</strong></p>
+        <p class="detail-text">{{ data.post.description }}</p>
+      </div>
+      <div class="detail-section">
+        <p class="detail-label"><strong>Published:</strong></p>
+        <mat-slide-toggle [checked]="data.post.is_published" disabled class="full-width">
+          {{ data.post.is_published ? 'Yes' : 'No' }}
+        </mat-slide-toggle>
+      </div>
+      <div class="detail-section">
+        <p class="detail-label"><strong>Created At:</strong></p>
+        <p class="detail-text">{{ data.post.created_at | date:'medium' }}</p>
+      </div>
+      <div class="detail-section">
+        <p class="detail-label"><strong>Updated At:</strong></p>
+        <p class="detail-text">{{ data.post.updated_at | date:'medium' }}</p>
+      </div>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-raised-button color="primary" (click)="dialogRef.close()">Close</button>
+      <button mat-raised-button color="accent" (click)="navigateToEdit()">Edit</button>
+    </mat-card-actions>
+  </mat-card>
+</mat-dialog-content>

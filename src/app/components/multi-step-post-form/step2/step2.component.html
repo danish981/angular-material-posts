@@ -1,0 +1,17 @@
+<form [formGroup]="form" class="step-form">
+  <mat-form-field appearance="outline" class="full-width">
+    <mat-label>Excerpt</mat-label>
+    <textarea matInput formControlName="excerpt" required rows="3"></textarea>
+    <mat-error *ngIf="form.get('excerpt')?.hasError('required') && form.get('excerpt')?.touched">
+      Excerpt is required
+    </mat-error>
+  </mat-form-field>
+  <mat-form-field appearance="outline" class="full-width">
+    <mat-label>Description</mat-label>
+    <textarea matInput formControlName="description" required rows="5"></textarea>
+    <mat-error *ngIf="form.get('description')?.hasError('required') && form.get('description')?.touched">
+      Description is required
+    </mat-error>
+  </mat-form-field>
+  <mat-slide-toggle formControlName="is_published" class="full-width">Published</mat-slide-toggle>
+</form>

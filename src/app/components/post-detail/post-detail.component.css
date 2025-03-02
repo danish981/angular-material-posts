@@ -1,0 +1,29 @@
+.post-detail-card {
+  margin: 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button-container {
+  display: flex;
+  gap: 20px; /* Slightly more space between buttons */
+  margin-top: 32px; /* More space above buttons for balance */
+  justify-content: center; /* Center buttons horizontally */
+}
+
+button.mat-raised-button {
+  min-width: 120px; /* Ensure buttons have a minimum width for consistency */
+  padding: 12px 24px; /* Larger padding for a more prominent look */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth button animations */
+}
+
+button.mat-raised-button:hover {
+  transform: scale(1.05); /* Slight scale on hover for interactivity */
+}
+
+button.mat-raised-button:disabled {
+  background-color: #cccccc; /* Softer disabled state color */
+  color: #666666; /* Darker text for disabled state */
+}

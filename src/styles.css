@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+/* Global styles for MatSnackBar */
+.snack-bar {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 16px 24px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.snack-bar-success {
+  background-color: #4caf50; /* Green for success */
+  color: white;
+}
+
+.snack-bar-warning {
+  background-color: #ff9800; /* Orange for warning */
+  color: white;
+}
+
+.snack-bar-error {
+  background-color: #f44336; /* Red for error */
+  color: white;
+}
+
+.snack-bar-action {
+  color: #ffffff; /* Ensure action text (e.g., "Close") is white */
+  margin-left: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.snack-bar-action:hover {
+  color: #e0e0e0; /* Lighter white on hover for interactivity */
+}
+
+.mat-snack-bar-container {
+  border-radius: 8px; /* Ensure the container matches the snackbar */
+}
+
+

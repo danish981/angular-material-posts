@@ -1,0 +1,123 @@
+
+mat-card-content {
+  position: relative;
+}
+
+/* multi-form post submission styling */
+.multi-step-create-button {
+  display: block;
+  margin: 16px auto 24px; /* Center the button below the title with spacing */
+  min-width: 200px; /* Wider button for prominence */
+  padding: 12px 24px; /* Larger padding for a bold look */
+  font-size: 16px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth animations */
+}
+
+.multi-step-create-button:hover {
+  transform: scale(1.05); /* Slight scale on hover for interactivity */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Subtle shadow on hover */
+}
+
+/* Existing CSS remains the same (e.g., .post-list-card, .add-button, etc.) */
+
+.post-list-card {
+  max-width: 70%; /* Wider card for the table */
+  min-width: 70%;
+  margin: 50px auto 0; /* Center the card horizontally with top margin */
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 3px 25px 5px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animations */
+}
+
+.post-list-card:hover {
+  transform: translateY(-2px); /* Slight lift on hover for interactivity */
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.25); /* Enhanced shadow on hover */
+}
+
+.add-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* Ensure it stays on top */
+  transition: transform 0.3s ease; /* Smooth animation for FAB */
+}
+
+.add-button:hover {
+  transform: scale(1.1); /* Slightly larger on hover for interactivity */
+}
+
+.table-container {
+  max-height: 60vh; /* Set a maximum height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-top: 20px;
+}
+
+mat-table {
+  width: 100%;
+}
+
+mat-row:hover {
+  background-color: #f5f5f5; /* Light gray hover for rows */
+  cursor: pointer;
+}
+
+mat-header-cell, mat-cell {
+  padding: 16px 24px; /* Increased padding for better spacing */
+  font-size: 14px;
+}
+
+mat-header-row {
+  background-color: #1976d2; /* Material primary color for header */
+  color: white;
+}
+
+mat-header-cell:first-child, mat-cell:first-child {
+  width: 60px; /* Narrower ID column */
+  text-align: center; /* Center-align ID for consistency */
+}
+
+.published-capsule {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 16px; /* Pill shape for capsule */
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  min-width: 60px; /* Ensure consistent width */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.published {
+  background-color: #4caf50; /* Green for published */
+  color: white;
+}
+
+.unpublished {
+  background-color: #f44336; /* Red for unpublished */
+  color: white;
+}
+
+.description-tooltip {
+  background: #333; /* Dark background for tooltip */
+  color: white;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  max-width: 300px; /* Limit tooltip width */
+  word-wrap: break-word; /* Ensure long descriptions wrap */
+}
+
+mat-card-title {
+  font-size: 28px; /* Slightly larger title for emphasis */
+  font-weight: 600; /* Bolder weight for a stronger look */
+  color: #1976d2; /* Match Material primary color */
+  text-align: center;
+  margin-bottom: 16px; /* Space below title */
+}
+
+mat-card-content {
+  padding: 16px 0;
+}

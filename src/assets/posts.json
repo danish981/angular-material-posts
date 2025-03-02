@@ -1,0 +1,502 @@
+[
+  {
+    "id": 1,
+    "title": "Mastering Angular: A Beginner's Guide",
+    "slug": "mastering-angular-beginners-guide",
+    "excerpt": "Learn the basics of Angular and build your first app.",
+    "description": "This guide covers the fundamentals of Angular, including components, modules, and data binding. You'll create a simple project and understand the structure of an Angular application.",
+    "is_published": true,
+    "created_at": "2025-02-10T09:30:00Z",
+    "updated_at": "2025-02-15T14:20:00Z"
+  },
+  {
+    "id": 2,
+    "title": "The Rise of AI in Everyday Life",
+    "slug": "ai-in-everyday-life",
+    "excerpt": "How artificial intelligence is shaping our daily routines.",
+    "description": "From virtual assistants to recommendation systems, AI is more present in our lives than ever. This article explores real-world examples of AI applications and what the future holds.",
+    "is_published": true,
+    "created_at": "2025-01-25T11:00:00Z",
+    "updated_at": "2025-02-05T16:45:00Z"
+  },
+  {
+    "id": 3,
+    "title": "10 Productivity Hacks for Remote Workers",
+    "slug": "productivity-hacks-remote-workers",
+    "excerpt": "Tips to stay focused and efficient while working from home.",
+    "description": "Remote work offers flexibility, but it also comes with challenges. Learn the best practices for maintaining productivity, managing distractions, and creating an effective workspace.",
+    "is_published": false,
+    "created_at": "2025-02-18T08:00:00Z",
+    "updated_at": "2025-02-18T08:00:00Z"
+  },
+  {
+    "id": 4,
+    "title": "The Future of Electric Vehicles: What to Expect in 2030",
+    "slug": "future-of-electric-vehicles",
+    "excerpt": "EVs are changing the automotive industry. What’s next?",
+    "description": "With advancements in battery technology and charging infrastructure, electric vehicles are becoming more accessible. This article looks at trends and innovations shaping the future of EVs.",
+    "is_published": true,
+    "created_at": "2025-01-30T14:15:00Z",
+    "updated_at": "2025-02-12T10:30:00Z"
+  },
+  {
+    "id": 5,
+    "title": "The Ultimate Guide to Personal Finance in 2025",
+    "slug": "personal-finance-guide-2025",
+    "excerpt": "Smart financial strategies for saving, investing, and budgeting.",
+    "description": "Understanding your finances is key to financial freedom. This guide covers essential topics like budgeting, investing, and managing debt in today's economy.",
+    "is_published": false,
+    "created_at": "2025-02-20T07:45:00Z",
+    "updated_at": "2025-02-20T07:45:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Breaking Down the Latest Web Development Trends",
+    "slug": "web-development-trends-2025",
+    "excerpt": "Stay ahead in the fast-paced world of web development.",
+    "description": "With new frameworks, design principles, and development tools emerging every year, it's important to stay updated. Here’s what’s trending in web development for 2025.",
+    "is_published": true,
+    "created_at": "2025-02-05T15:10:00Z",
+    "updated_at": "2025-02-14T09:25:00Z"
+  },
+  {
+    "id": 7,
+    "title": "The Psychology of Habits: How to Build Lasting Routines",
+    "slug": "psychology-of-habits",
+    "excerpt": "Understanding how habits form can help you make lasting changes.",
+    "description": "Habits shape our daily lives, but how are they formed? This article explores the science behind habit formation and provides practical tips to create positive routines.",
+    "is_published": true,
+    "created_at": "2025-01-10T10:30:00Z",
+    "updated_at": "2025-01-15T11:20:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Space Exploration in 2030: What’s Next for NASA & SpaceX?",
+    "slug": "space-exploration-2030",
+    "excerpt": "Humanity is heading to Mars and beyond—here’s what’s next.",
+    "description": "With private companies like SpaceX and Blue Origin competing with government agencies like NASA, space exploration is entering a new era. What missions and innovations are planned for 2030?",
+    "is_published": false,
+    "created_at": "2025-02-22T09:00:00Z",
+    "updated_at": "2025-02-22T09:00:00Z"
+  },
+  {
+    "id": 9,
+    "title": "The Impact of Social Media on Mental Health",
+    "slug": "social-media-mental-health",
+    "excerpt": "Is social media harming or helping our mental well-being?",
+    "description": "Social media connects people across the world, but it also has psychological effects. This article explores the pros and cons of social media on mental health and how to use it wisely.",
+    "is_published": true,
+    "created_at": "2025-02-01T13:20:00Z",
+    "updated_at": "2025-02-10T16:00:00Z"
+  },
+  {
+    "id": 10,
+    "title": "The Evolution of Cybersecurity: Protecting Your Data in 2025",
+    "slug": "cybersecurity-evolution-2025",
+    "excerpt": "Cyber threats are evolving—learn how to stay protected.",
+    "description": "From phishing attacks to data breaches, cyber threats are constantly changing. This article discusses the latest security trends and tips to safeguard your personal and business data.",
+    "is_published": false,
+    "created_at": "2025-02-19T12:00:00Z",
+    "updated_at": "2025-02-21T15:30:00Z"
+  },
+  {
+    "id": 11,
+    "title": "The Science of Sleep: Why Rest is Crucial for Success",
+    "slug": "science-of-sleep",
+    "excerpt": "Getting better sleep can improve focus, productivity, and health.",
+    "description": "Sleep is essential for brain function and well-being. Learn about the science of sleep, how it affects your body, and tips for achieving better rest.",
+    "is_published": true,
+    "created_at": "2025-02-07T21:30:00Z",
+    "updated_at": "2025-02-12T18:40:00Z"
+  },
+  {
+    "id": 12,
+    "title": "Mastering Python: A Comprehensive Guide",
+    "slug": "mastering-python-guide",
+    "excerpt": "Get to grips with Python and start coding your first application.",
+    "description": "This guide introduces Python basics, including data types, control structures, and object-oriented programming. You'll build a small Python app while learning key concepts.",
+    "is_published": true,
+    "created_at": "2025-02-24T10:15:00Z",
+    "updated_at": "2025-02-25T12:00:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Exploring the Internet of Things (IoT)",
+    "slug": "exploring-iot",
+    "excerpt": "How IoT is revolutionizing industries and our homes.",
+    "description": "From smart homes to industrial automation, IoT is making everything connected. This article looks at the technology behind IoT and the impact it’s having on various sectors.",
+    "is_published": true,
+    "created_at": "2025-02-21T14:45:00Z",
+    "updated_at": "2025-02-24T09:00:00Z"
+  },
+  {
+    "id": 14,
+    "title": "Building a Career in Tech: A Step-by-Step Guide",
+    "slug": "career-in-tech-guide",
+    "excerpt": "How to start and grow your career in the tech industry.",
+    "description": "This guide provides practical advice for individuals looking to break into the tech industry, covering skills, networking, and career advancement tips.",
+    "is_published": false,
+    "created_at": "2025-02-23T11:30:00Z",
+    "updated_at": "2025-02-23T11:30:00Z"
+  },
+  {
+    "id": 15,
+    "title": "The Future of Virtual Reality: Trends for 2030",
+    "slug": "future-of-vr-2030",
+    "excerpt": "Virtual reality is set to transform entertainment, education, and more.",
+    "description": "With advancements in hardware and software, virtual reality is expanding beyond gaming. This article discusses emerging trends in VR and its potential in 2030.",
+    "is_published": true,
+    "created_at": "2025-02-20T15:00:00Z",
+    "updated_at": "2025-02-24T16:20:00Z"
+  },
+  {
+    "id": 16,
+    "title": "Navigating the Future of Work: Remote, Hybrid, or In-Office?",
+    "slug": "future-of-work",
+    "excerpt": "What work environments will dominate in the coming years?",
+    "description": "With the rise of remote and hybrid work, the traditional office setting is evolving. This article examines trends in work environments and what we can expect moving forward.",
+    "is_published": true,
+    "created_at": "2025-02-15T13:50:00Z",
+    "updated_at": "2025-02-19T12:30:00Z"
+  },
+  {
+    "id": 17,
+    "title": "Understanding Blockchain Technology and Cryptocurrencies",
+    "slug": "blockchain-and-cryptocurrencies",
+    "excerpt": "A beginner's guide to blockchain and the world of cryptocurrencies.",
+    "description": "This article explains blockchain technology, how it works, and its applications, including an introduction to cryptocurrencies like Bitcoin and Ethereum.",
+    "is_published": true,
+    "created_at": "2025-02-13T16:30:00Z",
+    "updated_at": "2025-02-18T11:10:00Z"
+  },
+  {
+    "id": 18,
+    "title": "The Role of Augmented Reality in Modern Education",
+    "slug": "augmented-reality-in-education",
+    "excerpt": "How AR is enhancing learning experiences in classrooms.",
+    "description": "Augmented Reality (AR) is changing how we teach and learn. This article explores AR's role in education and how it's used to make learning more interactive and engaging.",
+    "is_published": false,
+    "created_at": "2025-02-24T09:30:00Z",
+    "updated_at": "2025-02-24T09:30:00Z"
+  },
+  {
+    "id": 19,
+    "title": "Navigating Ethical Dilemmas in Technology",
+    "slug": "ethical-dilemmas-in-tech",
+    "excerpt": "Understanding the moral implications of emerging tech.",
+    "description": "As technology advances, ethical questions arise. This article addresses common ethical dilemmas in technology, from data privacy to AI decision-making.",
+    "is_published": true,
+    "created_at": "2025-02-18T17:40:00Z",
+    "updated_at": "2025-02-22T13:10:00Z"
+  },
+  {
+    "id": 20,
+    "title": "The Evolution of Cloud Computing: What's Next?",
+    "slug": "cloud-computing-evolution",
+    "excerpt": "Cloud computing continues to evolve. What can we expect next?",
+    "description": "Cloud computing is transforming how businesses operate. This article takes a deep dive into the latest trends in cloud technologies and what the future holds for cloud services.",
+    "is_published": true,
+    "created_at": "2025-02-10T12:25:00Z",
+    "updated_at": "2025-02-12T14:00:00Z"
+  },
+  {
+    "id": 21,
+    "title": "The Impact of AI on Job Markets",
+    "slug": "ai-and-job-markets",
+    "excerpt": "Exploring how AI is reshaping the workforce.",
+    "description": "AI's growing presence in various industries has raised questions about its impact on jobs. This article explores the balance between automation and job creation in the age of AI.",
+    "is_published": true,
+    "created_at": "2025-02-20T10:00:00Z",
+    "updated_at": "2025-02-23T14:30:00Z"
+  },
+  {
+    "id": 22,
+    "title": "Blockchain Beyond Cryptocurrencies",
+    "slug": "blockchain-beyond-crypto",
+    "excerpt": "How blockchain is transforming industries beyond finance.",
+    "description": "Blockchain technology is not just for cryptocurrencies. This article explores how blockchain is being used in healthcare, supply chain management, and more.",
+    "is_published": true,
+    "created_at": "2025-02-21T09:15:00Z",
+    "updated_at": "2025-02-24T16:00:00Z"
+  },
+  {
+    "id": 23,
+    "title": "The Future of Quantum Computing",
+    "slug": "future-of-quantum-computing",
+    "excerpt": "What does quantum computing mean for the future?",
+    "description": "Quantum computing holds the potential to revolutionize industries like medicine and cybersecurity. This article explores the current state and future possibilities of quantum computing.",
+    "is_published": false,
+    "created_at": "2025-02-19T11:00:00Z",
+    "updated_at": "2025-02-22T13:45:00Z"
+  },
+  {
+    "id": 24,
+    "title": "The Ethics of Autonomous Vehicles",
+    "slug": "ethics-of-autonomous-vehicles",
+    "excerpt": "Autonomous vehicles raise complex ethical questions.",
+    "description": "As autonomous vehicles become more common, their ethical implications must be considered. This article delves into the dilemmas faced by self-driving cars in accident scenarios.",
+    "is_published": true,
+    "created_at": "2025-02-18T14:50:00Z",
+    "updated_at": "2025-02-21T15:30:00Z"
+  },
+  {
+    "id": 25,
+    "title": "Cybersecurity in the Age of IoT",
+    "slug": "cybersecurity-in-age-of-iot",
+    "excerpt": "Protecting data in an increasingly connected world.",
+    "description": "With the rapid growth of the Internet of Things (IoT), ensuring cybersecurity has become more complex. This article addresses best practices for safeguarding IoT devices and networks.",
+    "is_published": false,
+    "created_at": "2025-02-17T12:20:00Z",
+    "updated_at": "2025-02-20T10:40:00Z"
+  },
+  {
+    "id": 26,
+    "title": "5G and the Future of Connectivity",
+    "slug": "5g-and-future-of-connectivity",
+    "excerpt": "How 5G will change the way we connect.",
+    "description": "5G technology promises faster speeds and lower latency. This article explores how 5G will impact industries like healthcare, entertainment, and smart cities.",
+    "is_published": true,
+    "created_at": "2025-02-15T08:30:00Z",
+    "updated_at": "2025-02-20T17:05:00Z"
+  },
+  {
+    "id": 27,
+    "title": "The Role of Artificial Intelligence in Healthcare",
+    "slug": "ai-in-healthcare",
+    "excerpt": "How AI is improving patient care and diagnostics.",
+    "description": "AI is transforming the healthcare sector. This article discusses its applications in diagnosing diseases, personalizing treatments, and improving patient outcomes.",
+    "is_published": false,
+    "created_at": "2025-02-14T09:00:00Z",
+    "updated_at": "2025-02-18T11:50:00Z"
+  },
+  {
+    "id": 28,
+    "title": "Ethical AI: Developing Fair Algorithms",
+    "slug": "ethical-ai-fair-algorithms",
+    "excerpt": "Ensuring AI systems are unbiased and fair.",
+    "description": "AI algorithms must be developed with fairness in mind. This article addresses the challenges of creating ethical AI and reducing bias in decision-making systems.",
+    "is_published": true,
+    "created_at": "2025-02-16T13:45:00Z",
+    "updated_at": "2025-02-21T12:25:00Z"
+  },
+  {
+    "id": 29,
+    "title": "The Role of Virtual Reality in Education",
+    "slug": "virtual-reality-in-education",
+    "excerpt": "How VR is enhancing learning experiences.",
+    "description": "Virtual reality (VR) is transforming education by providing immersive learning experiences. This article explores the impact of VR on classrooms, training, and distance learning.",
+    "is_published": false,
+    "created_at": "2025-02-13T14:30:00Z",
+    "updated_at": "2025-02-19T09:00:00Z"
+  },
+  {
+    "id": 30,
+    "title": "The Environmental Impact of E-Waste",
+    "slug": "environmental-impact-of-e-waste",
+    "excerpt": "How electronic waste is affecting the planet.",
+    "description": "Electronic waste (e-waste) is a growing concern for the environment. This article examines the environmental impact of discarded electronics and ways to recycle and reduce e-waste.",
+    "is_published": true,
+    "created_at": "2025-02-12T16:50:00Z",
+    "updated_at": "2025-02-18T10:20:00Z"
+  },
+  {
+    "id": 31,
+    "title": "The Role of Artificial Intelligence in Healthcare",
+    "slug": "ai-in-healthcare",
+    "excerpt": "Exploring AI applications in medicine and patient care.",
+    "description": "Artificial Intelligence is revolutionizing healthcare. This article delves into AI's role in diagnostics, treatment recommendations, and personalized healthcare.",
+    "is_published": true,
+    "created_at": "2025-02-19T08:00:00Z",
+    "updated_at": "2025-02-19T08:30:00Z"
+  },
+  {
+    "id": 32,
+    "title": "The Ethics of Social Media Algorithms",
+    "slug": "ethics-of-social-media-algorithms",
+    "excerpt": "An in-depth look at how algorithms shape our online experiences.",
+    "description": "Social media algorithms influence what content we see. This article examines the ethical concerns surrounding algorithmic content curation, from bias to privacy.",
+    "is_published": true,
+    "created_at": "2025-02-19T09:00:00Z",
+    "updated_at": "2025-02-19T09:30:00Z"
+  },
+  {
+    "id": 33,
+    "title": "The Future of Autonomous Vehicles",
+    "slug": "future-of-autonomous-vehicles",
+    "excerpt": "Understanding the impact of self-driving technology on society.",
+    "description": "Autonomous vehicles promise to change the way we travel. This article explores the potential benefits and ethical challenges of self-driving cars.",
+    "is_published": true,
+    "created_at": "2025-02-19T10:00:00Z",
+    "updated_at": "2025-02-19T10:30:00Z"
+  },
+  {
+    "id": 34,
+    "title": "Cybersecurity Threats in the Age of IoT",
+    "slug": "cybersecurity-and-iot",
+    "excerpt": "The growing security challenges with interconnected devices.",
+    "description": "The rise of the Internet of Things (IoT) brings convenience but also significant cybersecurity risks. This article examines how to protect connected devices.",
+    "is_published": true,
+    "created_at": "2025-02-19T11:00:00Z",
+    "updated_at": "2025-02-19T11:30:00Z"
+  },
+  {
+    "id": 35,
+    "title": "Blockchain and Its Potential Beyond Cryptocurrency",
+    "slug": "blockchain-beyond-crypto",
+    "excerpt": "Exploring how blockchain can revolutionize industries beyond finance.",
+    "description": "Blockchain technology has applications beyond cryptocurrency. This article discusses how blockchain is transforming supply chains, healthcare, and voting systems.",
+    "is_published": false,
+    "created_at": "2025-02-19T12:00:00Z",
+    "updated_at": "2025-02-19T12:30:00Z"
+  },
+  {
+    "id": 36,
+    "title": "The Impact of 5G on Global Connectivity",
+    "slug": "impact-of-5g",
+    "excerpt": "How the next-generation wireless technology will change the world.",
+    "description": "5G promises faster internet speeds and better connectivity. This article explores its potential impact on industries, businesses, and daily life.",
+    "is_published": true,
+    "created_at": "2025-02-19T13:00:00Z",
+    "updated_at": "2025-02-19T13:30:00Z"
+  },
+  {
+    "id": 37,
+    "title": "The Dark Side of Facial Recognition Technology",
+    "slug": "dark-side-of-facial-recognition",
+    "excerpt": "Exploring privacy concerns and ethical issues with facial recognition.",
+    "description": "Facial recognition technology is growing in use, but its ethical implications remain contentious. This article discusses privacy concerns and surveillance issues.",
+    "is_published": true,
+    "created_at": "2025-02-19T14:00:00Z",
+    "updated_at": "2025-02-19T14:30:00Z"
+  },
+  {
+    "id": 38,
+    "title": "Digital Currency and the Future of Finance",
+    "slug": "digital-currency-and-finance",
+    "excerpt": "The rise of digital currencies and their role in modern economies.",
+    "description": "Digital currencies are changing the way we think about money. This article explores the future of finance with cryptocurrencies and central bank digital currencies.",
+    "is_published": true,
+    "created_at": "2025-02-19T15:00:00Z",
+    "updated_at": "2025-02-19T15:30:00Z"
+  },
+  {
+    "id": 39,
+    "title": "AI in Art: Creativity or Computation?",
+    "slug": "ai-in-art",
+    "excerpt": "Can artificial intelligence truly create art?",
+    "description": "AI-generated art is gaining attention, but can machines really create art? This article explores the intersection of technology and creativity in the world of digital art.",
+    "is_published": true,
+    "created_at": "2025-02-19T16:00:00Z",
+    "updated_at": "2025-02-19T16:30:00Z"
+  },
+  {
+    "id": 40,
+    "title": "The Ethics of Data Collection in the Digital Age",
+    "slug": "ethics-of-data-collection",
+    "excerpt": "Understanding the moral implications of personal data harvesting.",
+    "description": "As more personal data is collected online, ethical concerns around privacy and consent become critical. This article delves into the ethical side of data collection.",
+    "is_published": true,
+    "created_at": "2025-02-19T17:00:00Z",
+    "updated_at": "2025-02-19T17:30:00Z"
+  },
+  {
+    "id": 41,
+    "title": "Technology in Education: Revolutionizing the Classroom",
+    "slug": "technology-in-education",
+    "excerpt": "How tech is transforming teaching and learning.",
+    "description": "From virtual classrooms to AI tutors, technology is revolutionizing education. This article explores the latest innovations shaping the future of learning.",
+    "is_published": false,
+    "created_at": "2025-02-19T18:00:00Z",
+    "updated_at": "2025-02-19T18:30:00Z"
+  },
+  {
+    "id": 42,
+    "title": "The Environmental Impact of Tech Waste",
+    "slug": "environmental-impact-of-tech-waste",
+    "excerpt": "Understanding the growing problem of e-waste and its effects.",
+    "description": "With the rapid advancement of technology, e-waste is becoming a major environmental issue. This article discusses the impact of tech waste on the planet.",
+    "is_published": true,
+    "created_at": "2025-02-19T19:00:00Z",
+    "updated_at": "2025-02-19T19:30:00Z"
+  },
+  {
+    "id": 43,
+    "title": "The Rise of Remote Work and Technology's Role",
+    "slug": "remote-work-and-tech",
+    "excerpt": "How technology is enabling the shift to remote work.",
+    "description": "Remote work is becoming the norm in many industries. This article discusses how technology supports remote work and its impact on productivity and work-life balance.",
+    "is_published": true,
+    "created_at": "2025-02-19T20:00:00Z",
+    "updated_at": "2025-02-19T20:30:00Z"
+  },
+  {
+    "id": 44,
+    "title": "Ethical Hacking: The Good, the Bad, and the Legal",
+    "slug": "ethical-hacking",
+    "excerpt": "A look at the ethics and legality of ethical hacking.",
+    "description": "Ethical hackers play a crucial role in cybersecurity. This article explores the line between ethical hacking and illegal activities in the world of cybersecurity.",
+    "is_published": true,
+    "created_at": "2025-02-19T21:00:00Z",
+    "updated_at": "2025-02-19T21:30:00Z"
+  },
+  {
+    "id": 45,
+    "title": "The Role of Tech in Fighting Climate Change",
+    "slug": "tech-and-climate-change",
+    "excerpt": "How technology can help address the climate crisis.",
+    "description": "Technology has a significant role to play in the fight against climate change. This article discusses how innovations in tech are being used to combat environmental issues.",
+    "is_published": true,
+    "created_at": "2025-02-19T22:00:00Z",
+    "updated_at": "2025-02-19T22:30:00Z"
+  },
+  {
+    "id": 46,
+    "title": "Augmented Reality in Retail: A Game-Changer",
+    "slug": "augmented-reality-in-retail",
+    "excerpt": "Exploring how AR is transforming the shopping experience.",
+    "description": "Augmented reality (AR) is revolutionizing the retail sector. This article examines how AR is improving customer experiences and changing the future of shopping.",
+    "is_published": false,
+    "created_at": "2025-02-19T23:00:00Z",
+    "updated_at": "2025-02-19T23:30:00Z"
+  },
+  {
+    "id": 47,
+    "title": "The Role of Big Data in Business Strategy",
+    "slug": "big-data-in-business-strategy",
+    "excerpt": "How big data is shaping business decisions.",
+    "description": "Big data analytics is becoming a crucial tool in business strategy. This article discusses how organizations use big data to gain insights and drive growth.",
+    "is_published": true,
+    "created_at": "2025-02-20T00:00:00Z",
+    "updated_at": "2025-02-20T00:30:00Z"
+  },
+  {
+    "id": 48,
+    "title": "The Future of Virtual Reality in Entertainment",
+    "slug": "future-of-vr-entertainment",
+    "excerpt": "How VR is changing the entertainment landscape.",
+    "description": "Virtual reality is transforming entertainment. This article explores how VR is shaping the future of gaming, movies, and interactive experiences.",
+    "is_published": false,
+    "created_at": "2025-02-20T01:00:00Z",
+    "updated_at": "2025-02-20T01:30:00Z"
+  },
+  {
+    "id": 49,
+    "title": "Tech and Privacy: Balancing Innovation with Protection",
+    "slug": "tech-and-privacy",
+    "excerpt": "The challenges of protecting privacy in the digital age.",
+    "description": "As technology advances, maintaining privacy becomes more challenging. This article explores how to balance innovation with the protection of personal data.",
+    "is_published": true,
+    "created_at": "2025-02-20T02:00:00Z",
+    "updated_at": "2025-02-20T02:30:00Z"
+  },
+  {
+    "id": 50,
+    "title": "The Evolution of Cloud Computing",
+    "slug": "evolution-of-cloud-computing",
+    "excerpt": "A look at the rapid growth of cloud technologies.",
+    "description": "Cloud computing has changed the way businesses operate. This article explores the evolution of cloud technologies and their impact on industries worldwide.",
+    "is_published": true,
+    "created_at": "2025-02-20T03:00:00Z",
+    "updated_at": "2025-02-20T03:30:00Z"
+  }
+]

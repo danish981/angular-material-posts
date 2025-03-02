@@ -1,0 +1,97 @@
+<mat-card class="post-list-card">
+  <!-- Card title with multi-step create button -->
+  <mat-card-title>Posts</mat-card-title>
+  <button mat-raised-button color="primary" routerLink="/multi-step-create" class="multi-step-create-button">
+    Create Post (Multi-Step)
+  </button>
+
+  <!-- Card content with a container for scrolling -->
+  <mat-card-content>
+
+    <!-- Create button - the Plus Button - not being displayed on the front-end but on the right bottom of the screen visible table -->
+    <button mat-fab color="primary" routerLink="/create" class="add-button">
+      <mat-icon>add</mat-icon>
+    </button>
+
+    <!-- Table with vertical scrolling -->
+    <div class="table-container">
+      <mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+        <!-- todo : reduce the width of the id -->
+        <ng-container matColumnDef="id">
+          <mat-header-cell *matHeaderCellDef> ID </mat-header-cell>
+          <mat-cell *matCellDef="let post"> {{ post.id }}</mat-cell>
+        </ng-container>
+
+        <!-- title -->
+        <ng-container matColumnDef="title">
+          <mat-header-cell *matHeaderCellDef> Title </mat-header-cell>
+          <mat-cell *matCellDef="let post"> {{ post.title }}</mat-cell>
+        </ng-container>
+
+        <!-- slug -->
+        <ng-container matColumnDef="slug">
+          <mat-header-cell *matHeaderCellDef> Slug </mat-header-cell>
+          <mat-cell *matCellDef="let post"> {{ post.slug }}</mat-cell>
+        </ng-container>
+
+        <!-- excerpt -->
+        <ng-container matColumnDef="excerpt">
+          <mat-header-cell *matHeaderCellDef> Excerpt </mat-header-cell>
+          <mat-cell *matCellDef="let post"> {{ post.excerpt }}</mat-cell>
+        </ng-container>
+
+        <!-- description -->
+        <ng-container matColumnDef="description">
+          <mat-header-cell *matHeaderCellDef> Description </mat-header-cell>
+          <mat-cell *matCellDef="let post">
+            <span matTooltip="{{ post.description }}" matTooltipClass="description-tooltip">
+              {{ post.description.length > 20 ? (post.description | slice:0:20) + '...' : post.description }}
+            </span>
+          </mat-cell>
+        </ng-container>
+
+        <!-- is_published -->
+        <ng-container matColumnDef="is_published">
+          <mat-header-cell *matHeaderCellDef> Status </mat-header-cell>
+          <mat-cell *matCellDef="let post">
+            <span class="published-capsule" [class.published]="post.is_published"
+                  [class.unpublished]="!post.is_published">
+              {{ post.is_published ? 'Yes' : 'No' }}
+            </span>
+          </mat-cell>
+        </ng-container>
+
+        <!-- created at -->
+        <ng-container matColumnDef="created_at">
+          <mat-header-cell *matHeaderCellDef> Created_at </mat-header-cell>
+          <mat-cell *matCellDef="let post"> {{ post.created_at }}</mat-cell>
+        </ng-container>
+
+        <!-- action buttons -->
+        <ng-container matColumnDef="actions">
+          <mat-header-cell *matHeaderCellDef> Actions </mat-header-cell>
+          <mat-cell *matCellDef="let post">
+            <!-- Eye - Show button (now opens modal) -->
+            <button mat-icon-button color="primary" (click)="openPostDetail(post)">
+              <mat-icon>visibility</mat-icon>
+            </button>
+
+            <!-- Pencil - Edit button -->
+            <button mat-icon-button color="accent" [routerLink]="['/edit', post.id]">
+              <mat-icon>edit</mat-icon>
+            </button>
+
+            <!-- Basket - Delete button -->
+            <button mat-icon-button color="warn" (click)="deletePost(post.id)">
+              <mat-icon>delete</mat-icon>
+            </button>
+          </mat-cell>
+        </ng-container>
+
+        <!-- the header row - the column names -->
+        <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+        <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+      </mat-table>
+    </div>
+  </mat-card-content>
+</mat-card>

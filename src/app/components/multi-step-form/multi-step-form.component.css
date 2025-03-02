@@ -1,0 +1,67 @@
+.multi-step-form-card {
+  max-width: 600px;
+  margin: 50px auto 0;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.multi-step-form-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+mat-card-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #1976d2;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+mat-card-content {
+  padding: 16px 0;
+}
+
+mat-stepper {
+  background: none;
+  border: none;
+}
+
+mat-step-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #666666;
+}
+
+mat-step-label-selected {
+  color: #1976d2;
+}
+
+.step-actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+  justify-content: center;
+}
+
+button.mat-raised-button {
+  min-width: 120px;
+  padding: 12px 24px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button.mat-raised-button:hover {
+  transform: scale(1.05);
+}
+
+.full-width {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+mat-form-field {
+  display: block;
+}
