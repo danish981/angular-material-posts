@@ -71,7 +71,7 @@ the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 - Observable and BehaviourSubject (like pinia in vue)
 - Learn about component communication (https://v17.angular.io/guide/component-interaction)
 - The real API (Laravel or nodeJs) create one and use it with this project
-- 
+- Add the API to it and use the API to fetch the data, host the API on your hosting
 
 
 
