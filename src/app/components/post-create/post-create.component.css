@@ -1,39 +1,48 @@
 /* todo :   we have duplicated css, create and update post */
 
 .post-form-card {
-  max-width: 600px; /* Limit card width for a cleaner look */
+  max-width: 600px;
+  /* Limit card width for a cleaner look */
   /* Center the card horizontally */
   padding: 24px;
   background: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Enhanced shadow for depth */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Enhanced shadow for depth */
   /* Add some top margin for positioning */
   margin: 50px auto 0;
 }
 
 .full-width {
-  width: 100%; /* Ensure form fields span the card width */
-  margin-bottom: 16px; /* Space between fields */
+  width: 100%;
+  /* Ensure form fields span the card width */
+  margin-bottom: 16px;
+  /* Space between fields */
 }
 
 mat-form-field {
-  display: block; /* Stack fields vertically */
+  display: block;
+  /* Stack fields vertically */
 }
 
 .button-container {
   display: flex;
-  gap: 16px; /* Space between buttons */
-  margin-top: 24px; /* Space above buttons */
+  gap: 16px;
+  /* Space between buttons */
+  margin-top: 24px;
+  /* Space above buttons */
 }
 
 mat-slide-toggle {
-  margin: 16px 0; /* Space around the toggle */
+  margin: 16px 0;
+  /* Space around the toggle */
 }
 
 mat-card-title {
   font-size: 24px;
   font-weight: 500;
-  color: #1976d2; /* Match Material primary color */
+  color: #1976d2;
+  /* Match Material primary color */
   text-align: center;
 }
 
@@ -45,67 +54,85 @@ mat-card-content {
 
 /* Add to post-create.component.css and post-edit.component.css */
 mat-slide-toggle {
-  margin: 20px 0; /* Consistent spacing */
-  display: block; /* Ensure full-width alignment */
-  transition: transform 0.3s ease, background-color 0.3s ease; /* Smooth animations */
+  margin: 20px 0;
+  /* Consistent spacing */
+  display: block;
+  /* Ensure full-width alignment */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  /* Smooth animations */
 }
 
 mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
-  background-color: #4caf50; /* Green for checked state, matching published capsule */
+  background-color: #4caf50;
+  /* Green for checked state, matching published capsule */
 }
 
 mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
-  background-color: rgba(76, 175, 80, 0.5); /* Light green for checked bar */
+  background-color: rgba(76, 175, 80, 0.5);
+  /* Light green for checked bar */
 }
 
 mat-slide-toggle .mat-slide-toggle-thumb {
-  background-color: #f44336; /* Red for unchecked state, matching unpublished capsule */
-  transition: background-color 0.3s ease; /* Smooth color transition */
+  background-color: #f44336;
+  /* Red for unchecked state, matching unpublished capsule */
+  transition: background-color 0.3s ease;
+  /* Smooth color transition */
 }
 
 mat-slide-toggle .mat-slide-toggle-bar {
-  background-color: rgba(244, 67, 54, 0.3); /* Light red for unchecked bar */
-  border-radius: 16px; /* Rounded bar for a modern look */
+  background-color: rgba(244, 67, 54, 0.3);
+  /* Light red for unchecked bar */
+  border-radius: 16px;
+  /* Rounded bar for a modern look */
 }
 
 mat-slide-toggle:hover .mat-slide-toggle-thumb {
-  transform: scale(1.1); /* Slight scale on hover for interactivity */
+  transform: scale(1.1);
+  /* Slight scale on hover for interactivity */
 }
 
 mat-slide-toggle.mat-checked:hover .mat-slide-toggle-thumb {
-  transform: scale(1.1); /* Maintain hover effect for checked state */
+  transform: scale(1.1);
+  /* Maintain hover effect for checked state */
 }
 
 /* Add to post-detail-dialog.component.css (if the slider appears here, or adjust accordingly) */
 mat-slide-toggle {
-  margin: 12px 0; /* Slightly less margin for consistency with modal spacing */
+  margin: 12px 0;
+  /* Slightly less margin for consistency with modal spacing */
   display: block;
   transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
-  background-color: #4caf50; /* Green for checked */
+  background-color: #4caf50;
+  /* Green for checked */
 }
 
 mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
-  background-color: rgba(76, 175, 80, 0.5); /* Light green for checked bar */
+  background-color: rgba(76, 175, 80, 0.5);
+  /* Light green for checked bar */
 }
 
 mat-slide-toggle .mat-slide-toggle-thumb {
-  background-color: #f44336; /* Red for unchecked */
+  background-color: #f44336;
+  /* Red for unchecked */
   transition: background-color 0.3s ease;
 }
 
 mat-slide-toggle .mat-slide-toggle-bar {
-  background-color: rgba(244, 67, 54, 0.3); /* Light red for unchecked bar */
-  border-radius: 16px; /* Rounded bar */
+  background-color: rgba(244, 67, 54, 0.3);
+  /* Light red for unchecked bar */
+  border-radius: 16px;
+  /* Rounded bar */
 }
 
 mat-slide-toggle:hover .mat-slide-toggle-thumb {
-  transform: scale(1.1); /* Slight scale on hover */
+  transform: scale(1.1);
+  /* Slight scale on hover */
 }
 
 mat-slide-toggle.mat-checked:hover .mat-slide-toggle-thumb {
-  transform: scale(1.1); /* Maintain hover effect */
+  transform: scale(1.1);
+  /* Maintain hover effect */
 }
-

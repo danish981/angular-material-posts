@@ -1,7 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
 
 
 
@@ -16,33 +23,37 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .snack-bar-success {
-  background-color: #4caf50; /* Green for success */
+  background-color: #4caf50;
+  /* Green for success */
   color: white;
 }
 
 .snack-bar-warning {
-  background-color: #ff9800; /* Orange for warning */
+  background-color: #ff9800;
+  /* Orange for warning */
   color: white;
 }
 
 .snack-bar-error {
-  background-color: #f44336; /* Red for error */
+  background-color: #f44336;
+  /* Red for error */
   color: white;
 }
 
 .snack-bar-action {
-  color: #ffffff; /* Ensure action text (e.g., "Close") is white */
+  color: #ffffff;
+  /* Ensure action text (e.g., "Close") is white */
   margin-left: 16px;
   cursor: pointer;
   transition: color 0.3s ease;
 }
 
 .snack-bar-action:hover {
-  color: #e0e0e0; /* Lighter white on hover for interactivity */
+  color: #e0e0e0;
+  /* Lighter white on hover for interactivity */
 }
 
 .mat-snack-bar-container {
-  border-radius: 8px; /* Ensure the container matches the snackbar */
+  border-radius: 8px;
+  /* Ensure the container matches the snackbar */
 }
-
-
